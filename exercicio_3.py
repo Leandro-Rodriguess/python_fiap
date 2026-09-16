@@ -14,3 +14,5 @@ comprimento = float(input('Digite o comprimento do terreno: '))
 area = largura * comprimento
 
 print(f'A área do terreno é {area} metros quadrados')
+
+
