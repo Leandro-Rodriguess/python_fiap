@@ -1,4 +1,12 @@
-# 1. 
+for numero in range(1, 6,1):
+    print(numero)
+
+
+
+""" exercicios """
+
+
+""" # 1. 
 
 # Dado o valor inicial e o final pelo usuário, exiba os números do intervalo FECHADO.
 
@@ -48,4 +56,4 @@ numero = int(input('Digite um número: '))
 m = int(input('Digite o multiplicador M: '))
 
 for i in range(1, m + 1):
-    print(numero * i, end=" ")
+    print(numero * i, end=" ") """
