@@ -13,31 +13,31 @@ while True:
             numero1 = float(input('Primeiro número: '))
             
             numero2 = float(input('Segundo número: '))
-            print('Resultado:', n1 + n2)
+            print('Resultado:', numero1 + numero2)
         case '2':
 
             numero1 = float(input('Primeiro número: '))
 
             numero2 = float(input('Segundo número: '))
-            print('Resultado:', n1 - n2)
+            print('Resultado:', numero1 - numero2)
 
         case '3':
             numero1 = float(input('Primeiro número: '))
 
             numero2 = float(input('Segundo número: '))
-            print('Resultado:', n1 * n2)
+            print('Resultado:', numero1 * numero2)
         case "4":
             numero1 = float(input('Primeiro número: '))
 
             numero2 = float(input('Segundo número: '))
 
-            if n2 == 0:
+            if numero2 == 0:
                 print('Não é possível dividir por zero.')
 
             else:
-                print('Resultado:', n1 / n2)
+                print('Resultado:', numero1 / numero2)
 
-        case "5":
+        case '5':
             print('Fim do programa')
             break
 

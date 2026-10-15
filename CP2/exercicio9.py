@@ -17,7 +17,7 @@ while placa != 'FIM':
         veiculos = veiculos + 1
         total = total + valor
  
-    placa = input("Placa (FIM para sair): ")
+    placa = input('Placa (FIM para sair): ')
  
 print('Veículos atendidos:', veiculos)
 print(f'Total arrecadado: R$ {total:.2f}')

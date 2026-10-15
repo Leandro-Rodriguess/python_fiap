@@ -15,7 +15,7 @@ while resposta == 'S':
  
     resposta = input('Calcular outra? (S/N) ')
 
-    while resposta != "S" and resposta != "N":
+    while resposta != 'S' and resposta != 'N':
         print('Resposta inválida')
         resposta = input('Calcular outra? (S/N) ')
  

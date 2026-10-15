@@ -33,10 +33,10 @@ while numero != 0:
 if quantidade == 0:
     print('Nenhum número foi digitado')
 else:
-    print('Positivos:', positivos)
-    print('Negativos:', negativos)
-    print('Pares:', pares)
-    print('Ímpares:', impares)
-    print('Soma:', soma)
-    print('Maior:', maior)
-    print('Menor:', menor)
+    print(f'Positivos: {positivos}')
+    print(f'Negativos: {negativos}')
+    print(f'Pares: {pares}')
+    print(f'Ímpares: {impares}')
+    print(f'Soma: {soma}')
+    print(f'Maior: {maior}')
+    print(f'Menor: {menor}')
